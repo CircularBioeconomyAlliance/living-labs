@@ -11,3 +11,12 @@ During this hackathon, we aim to build a digital foundation for a unified Monito
 - The CBA list of indicators, respective methods (as a indicator usually can be measured via different methods), and additional attributes. [cba_inputs/CBA ME Indicators List.xlsx](https://github.com/CircularBioeconomyAlliance/living-labs/blob/main/cba_inputs/CBA%20ME%20Indicators%20List.xlsx)
 - An example use case, e.g., project description, including its objectives and expected outcomes. [cba_inputs/Use Case Regenerative Cotton in Chad.pdf](https://github.com/CircularBioeconomyAlliance/living-labs/blob/main/cba_inputs/Use%20Case%20Regenerative%20Cotton%20in%20Chad.pdf)
 - A sample of appropriate indicators for the use case above. [cba_inputs/Indicators for Use Case Regenerative Cotton in Chad.xlsx](https://github.com/CircularBioeconomyAlliance/living-labs/blob/main/cba_inputs/Indicators%20for%20Use%20Case%20Regenerative%20Cotton%20in%20Chad.xlsx)
+
+
+
+# install requirements
+`python -m venv env`
+`pip install -r requirements.txt`
+
+# Run stramlit
+`streamlit run agent_app.py`
